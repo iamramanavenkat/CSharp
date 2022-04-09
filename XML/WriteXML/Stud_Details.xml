@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Creating XML Document using C#-->
+<Students>
+  <Student>
+    <Name>Rick</Name>
+    <Class>10</Class>
+  </Student>
+  <Student>
+    <Name>Bill</Name>
+    <Class>8</Class>
+  </Student>
+</Students>

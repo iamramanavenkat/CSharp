@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatement", "SwitchSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables_DataTypes", "Variables_DataTypes\Variables_DataTypes.csproj", "{F65EA4B1-FAE4-4E96-B64C-864F8F88544B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime", "DateTime\DateTime.csproj", "{5AA75323-A8DF-42AC-AAFC-12172C62CB99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F65EA4B1-FAE4-4E96-B64C-864F8F88544B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F65EA4B1-FAE4-4E96-B64C-864F8F88544B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F65EA4B1-FAE4-4E96-B64C-864F8F88544B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA75323-A8DF-42AC-AAFC-12172C62CB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA75323-A8DF-42AC-AAFC-12172C62CB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA75323-A8DF-42AC-AAFC-12172C62CB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA75323-A8DF-42AC-AAFC-12172C62CB99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

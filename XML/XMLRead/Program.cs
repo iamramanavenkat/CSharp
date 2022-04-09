@@ -12,20 +12,21 @@ namespace ReadXML
         static void Main(string[] args)
         {
            // XmlDoc();
-            TxtRead();
+           TxtRead();
         }
 
         static void XmlDoc()
         {
             XmlDocument xdoc = new XmlDocument();
-            xdoc.Load(@"H:\CSharp\Code\XMLOperations\ReadXML\Students.xml");
+            xdoc.Load(@"I:\CSharp\XML\XMLRead\Students.xml");
             xdoc.Save(Console.Out);
+            xdoc.Save(@"I:\CSharp\XML\XMLRead\Stud_Load.xml");
             Console.ReadLine();
         }
 
         static void TxtRead()
         {
-            XmlTextReader xtr = new XmlTextReader(@"H:\CSharp\Code\XMLOperations\ReadXML\Students.xml");
+            XmlTextReader xtr = new XmlTextReader(@"I:\CSharp\XML\XMLRead\Students.xml");
             while (xtr.Read())
             {
                 if(xtr.NodeType == XmlNodeType.Element && xtr.Name == "Name")
