@@ -10,7 +10,7 @@ namespace LuciansLusciousLasagna
     {
         static void Main(string[] args)
         {
-            Lasgana lasgana = new Lasgana();
+            var lasgana = new Lasgana();
             // lasgana.ExpectedMinutesInOven();
             //lasgana.RemainingMinutesInOven(20);
             //lasgana.PreparationTimeInMinutes(3);
