@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime", "DateTime\DateTi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TernaryOperator", "TernaryOperator\TernaryOperator.csproj", "{8F462803-4C6C-45DB-A329-693F4F144EC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "Tuples\Tuples.csproj", "{6E5CAF63-A6AA-4FB5-9788-256AD67C3B64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{8F462803-4C6C-45DB-A329-693F4F144EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F462803-4C6C-45DB-A329-693F4F144EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F462803-4C6C-45DB-A329-693F4F144EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5CAF63-A6AA-4FB5-9788-256AD67C3B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5CAF63-A6AA-4FB5-9788-256AD67C3B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5CAF63-A6AA-4FB5-9788-256AD67C3B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5CAF63-A6AA-4FB5-9788-256AD67C3B64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

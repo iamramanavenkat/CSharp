@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuciansLusciousLasagna", "LuciansLusciousLasagna\LuciansLusciousLasagna.csproj", "{3A58E6AB-A453-415C-A959-DDE9F4A5813A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNumberAnalysis_Tuples", "PhoneNumberAnalysis_Tuples\PhoneNumberAnalysis_Tuples.csproj", "{24D501C7-F429-44CD-8BF3-131685C27D2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3A58E6AB-A453-415C-A959-DDE9F4A5813A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A58E6AB-A453-415C-A959-DDE9F4A5813A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A58E6AB-A453-415C-A959-DDE9F4A5813A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D501C7-F429-44CD-8BF3-131685C27D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D501C7-F429-44CD-8BF3-131685C27D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D501C7-F429-44CD-8BF3-131685C27D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D501C7-F429-44CD-8BF3-131685C27D2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
