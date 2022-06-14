@@ -24,15 +24,21 @@ namespace Tuples
             HeightWeight = (159, 52);
 
             Console.WriteLine(HeightWeight.Item1 + "_" + HeightWeight.Item2);
-          
+
             //Return value
             (bool, int) GetSameOrBigger(int num1, int num2)
             {
                 return (num1 == num2, num1 > num2 ? num1 : num2);
             }
-
-            Console.WriteLine(GetSameOrBigger(25,12));
+            Console.WriteLine("\nGetSameOrBigger");
+            Console.WriteLine(GetSameOrBigger(25, 12));
+            MyTuple(5);
+            Console.WriteLine(MyTuple());
             Console.ReadLine();
         }
     }
+     static bool MyTuple(int num)
+        {
+        Console.WriteLine("Tuples");
+        }
 }
