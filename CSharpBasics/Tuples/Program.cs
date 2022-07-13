@@ -6,39 +6,46 @@ using System.Threading.Tasks;
 
 namespace Tuples
 {
+    /*Data Structure which organizes the data.
+     Holding two or more fields of any type.
+    Enclosed by () - parantheses.
+    */
     class Program
     {
         static void Main(string[] args)
         {
-            string msg = "All you need to know";
-            bool success = !string.IsNullOrWhiteSpace(msg);
-            (bool, int, string) triple = (success, 4, msg);
-            Console.WriteLine(triple.Item1);
-            Console.WriteLine(triple.Item2);
-            Console.WriteLine(triple.Item3);
+            string greeting = "CSharp World!";
 
-            //Initialization
-            (int, int) HeightWeight = (168, 55);
+            bool check = string.IsNullOrWhiteSpace(greeting);
 
-            //Assignment
-            HeightWeight = (159, 52);
+            (bool, int, string) thrice = (check,4,greeting);
 
-            Console.WriteLine(HeightWeight.Item1 + "_" + HeightWeight.Item2);
+            Console.WriteLine(thrice);
 
-            //Return value
-            (bool, int) GetSameOrBigger(int num1, int num2)
-            {
-                return (num1 == num2, num1 > num2 ? num1 : num2);
-            }
-            Console.WriteLine("\nGetSameOrBigger");
-            Console.WriteLine(GetSameOrBigger(25, 12));
-            MyTuple(5);
-            Console.WriteLine(MyTuple());
+            Console.WriteLine(EqualAndSum(3, 8)); //Return Value
+
+            (int, int) operands = (4, 8); 
+
+            Console.WriteLine(Add(operands));//Method Argument - Passing a tuple as a method paramenter/argument
+
             Console.ReadLine();
+
+            
         }
-    }
-     static bool MyTuple(int num)
+
+        //Return Value
+        static (bool, int) EqualAndSum(int num1, int num2)
         {
-        Console.WriteLine("Tuples");
+            return (num1 == num2, num1 + num2);
         }
+
+        //Method Argument
+        static int Add((int myVal1, int myVal2)opr)
+        {
+            return opr.myVal1 + opr.Item2;// We can use own name or pre defined Item1, Item2 ...
+        }
+
+
+    }
+   
 }
